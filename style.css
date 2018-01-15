@@ -1,0 +1,86 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+
+	width: 100%;
+	height: 100vh; 
+	background: linear-gradient(-45deg,#00b388,#b38899);
+
+}
+
+form{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	display: block; 
+}
+
+input{
+	height: 60px;
+	width: 80%;
+	font-size: 28px;
+	outline: none;
+	border-radius: 50px;
+	padding: 0px 25px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:none;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.3);
+}
+.result{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.table{
+	width: 960px;
+	padding: 25px;
+	border-radius: 5px;
+	background: linear-gradient(85deg,#00b388,#b38899);
+	margin: 0 auto;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+	width: 960px;
+	
+}
+thead{
+	border-radius: 50px;
+
+}
+
+th{
+	width: 200px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.1);
+	padding: 15px 0px;
+
+}
+th:first-child{
+	border-radius: 5px 0px 0px 5px;
+}
+th:last-child{
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+td{
+	padding: 15px 2px;
+}
+tbody:nth-child(odd){
+	background-color: rgba(0,0,0,0.1);
+}
+
+tbody:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+
